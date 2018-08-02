@@ -64,27 +64,27 @@ public class tableroGame extends java.awt.Frame {
                 exitForm(evt);
             }
         });
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), "Debug Menu", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Abadi MT Condensed Light", 0, 14))); // NOI18N
         jPanel1.setToolTipText("Debug Menu");
         jPanel1.setName("Debug Menu");
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("ZOMBIE");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
+//        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
 
         jLabel2.setText("X : ");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
+//        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
         zombieX.setText("--");
-        jPanel1.add(zombieX, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, -1, -1));
+//        jPanel1.add(zombieX, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, -1, -1));
 
         jLabel3.setText("Y : ");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, -1, -1));
+//        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, -1, -1));
 
         zombieY.setText("--");
-        jPanel1.add(zombieY, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
+//        jPanel1.add(zombieY, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
 
         invocar.setText("Invocar");
         invocar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -92,13 +92,13 @@ public class tableroGame extends java.awt.Frame {
                 invocarMouseClicked(evt);
             }
         });
-        jPanel1.add(invocar, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 94, 208, -1));
+//        jPanel1.add(invocar, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 94, 208, -1));
 
         if1P.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1P", "2P" }));
-        jPanel1.add(if1P, new org.netbeans.lib.awtextra.AbsoluteConstraints(149, 55, -1, -1));
+//        jPanel1.add(if1P, new org.netbeans.lib.awtextra.AbsoluteConstraints(149, 55, -1, -1));
 
         jLabel4.setText("ATACAR A / POS. A MOVER");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, -1));
+//        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, -1));
 
         jScrollPane2.setBorder(null);
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -112,10 +112,10 @@ public class tableroGame extends java.awt.Frame {
         piezaDataAttack.setText("Ninguna");
         jScrollPane2.setViewportView(piezaDataAttack);
 
-        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, 186, 54));
+//        jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, 186, 54));
 
         jLabel5.setText("PIEZA SELECCIONADA");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+//        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
 
         jScrollPane3.setBorder(null);
         jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -129,16 +129,16 @@ public class tableroGame extends java.awt.Frame {
         piezaData.setText("Ninguna");
         jScrollPane3.setViewportView(piezaData);
 
-        jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 186, 54));
+//        jPanel1.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 186, 54));
 
         is1P.setText("... 1P?");
         is1P.setActionCommand("... puede atacar?");
         is1P.setEnabled(false);
-        jPanel1.add(is1P, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, 80, -1));
+//        jPanel1.add(is1P, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 210, 80, -1));
 
         canAttack.setText("... Accion?");
         canAttack.setActionCommand("... accion?");
-        jPanel1.add(canAttack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, -1, -1));
+//        jPanel1.add(canAttack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, -1, -1));
 
         attack.setText("Atacar");
         attack.setEnabled(false);
@@ -147,7 +147,7 @@ public class tableroGame extends java.awt.Frame {
                 attackMouseClicked(evt);
             }
         });
-        jPanel1.add(attack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, 100, -1));
+//        jPanel1.add(attack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, 100, -1));
 
         mover.setText("Mover");
         mover.setEnabled(false);
@@ -156,9 +156,9 @@ public class tableroGame extends java.awt.Frame {
                 moverMouseClicked(evt);
             }
         });
-        jPanel1.add(mover, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 320, 100, -1));
+//        jPanel1.add(mover, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 320, 100, -1));
 
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 40, 230, 470));
+//        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 40, 230, 470));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -180,7 +180,7 @@ public class tableroGame extends java.awt.Frame {
             int y = Integer.parseInt(zombieY.getText());
             if(tb.Piezas[x][y]==null){
                 boolean player = (((String)if1P.getSelectedItem()).equals("1P")? true : false);
-                tb.Piezas[x][y] = new piezaZombie(x,y,player);
+                tb.Piezas[x][y] = new piezaZombie(x,y,player+"","");
                 setHPtxt(x,y);
                 setIconPos(x,y);
             }else{
@@ -220,7 +220,7 @@ public class tableroGame extends java.awt.Frame {
             if(tb.Piezas[x][y]!=null){
                 piezaData.setText(tb.Piezas[x][y].toString());
                 canAttack.setSelected((tb.Piezas[x][y].tipo!=piezaTipo.ZOMBIE)? true : false);
-                is1P.setSelected(tb.Piezas[x][y].nPlayer);
+                is1P.setSelected(true);
                 myX = x;
                 myY = y;
             }else{
@@ -232,7 +232,7 @@ public class tableroGame extends java.awt.Frame {
             if(tb.Piezas[x][y]!=null){
                 mover.setEnabled(false);
                 piezaDataAttack.setText(tb.Piezas[x][y].toString());
-                if(tb.Piezas[x][y].nPlayer!=is1P.isSelected()){
+                if(true){
                     attack.setEnabled(true);
                     attX = x;
                     attY = y;
@@ -278,14 +278,14 @@ public class tableroGame extends java.awt.Frame {
         piezaHP[x][y].setSize(new java.awt.Dimension(30, 30));
         piezaHP[x][y].setText("");
         piezaHP[x][y].setForeground(new java.awt.Color(255, 255, 255));
-        add(piezaHP[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+8, ypos+70, -1, -1));
+//        add(piezaHP[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+8, ypos+70, -1, -1));
         setHPtxt(x,y);
 
         piezaLab[x][y] = new javax.swing.JLabel();
         piezaLab[x][y].setPreferredSize(new java.awt.Dimension(100, 100));
         piezaLab[x][y].setSize(new java.awt.Dimension(100, 100));
         piezaLab[x][y].setText(null);
-        add(piezaLab[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
+//        add(piezaLab[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
         setIconPos(x,y);
         
         piezaLab[x][y].addMouseListener(new java.awt.event.MouseAdapter() {
@@ -312,7 +312,7 @@ public class tableroGame extends java.awt.Frame {
     
     public void setIconPos(int x,int y){
         if(tb.Piezas[x][y]!=null){
-            if(tb.Piezas[x][y].nPlayer){
+            if(true){
                 if(tb.Piezas[x][y].tipo == piezaTipo.WOLF)
                     piezaLab[x][y].setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/wolfBlack.png")));
                 if(tb.Piezas[x][y].tipo == piezaTipo.VAMPIRE)

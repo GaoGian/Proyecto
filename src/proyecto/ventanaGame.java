@@ -127,40 +127,40 @@ public class ventanaGame extends javax.swing.JFrame {
         detallesUsuario.setBounds(new java.awt.Rectangle(300, 300, 400, 210));
         detallesUsuario.setMinimumSize(new java.awt.Dimension(400, 210));
         detallesUsuario.setResizable(false);
-        detallesUsuario.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        detallesUsuario.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(51, 51, 51));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         detailNickname.setFont(new java.awt.Font("Eurostile", 0, 30)); // NOI18N
         detailNickname.setForeground(new java.awt.Color(255, 255, 255));
         detailNickname.setText("NickName");
-        jPanel1.add(detailNickname, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 220, -1));
+//        jPanel1.add(detailNickname, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 220, -1));
 
         detailName.setFont(new java.awt.Font("Eurostile", 0, 22)); // NOI18N
         detailName.setForeground(new java.awt.Color(255, 255, 255));
         detailName.setText("Nombre Completo");
-        jPanel1.add(detailName, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 220, -1));
+//        jPanel1.add(detailName, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 220, -1));
 
         detailPartidas.setFont(new java.awt.Font("Eurostile", 0, 16)); // NOI18N
         detailPartidas.setForeground(new java.awt.Color(255, 255, 255));
         detailPartidas.setText("-- Puntos | -- Partidas Ganadas");
-        jPanel1.add(detailPartidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 128, 280, -1));
+//        jPanel1.add(detailPartidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 128, 280, -1));
 
         detailEmail.setFont(new java.awt.Font("Eurostile", 0, 14)); // NOI18N
         detailEmail.setForeground(new java.awt.Color(255, 255, 255));
         detailEmail.setText("correo@electron.ico");
-        jPanel1.add(detailEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, 170, -1));
+//        jPanel1.add(detailEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, 170, -1));
 
         detailEdad.setFont(new java.awt.Font("Eurostile", 0, 16)); // NOI18N
         detailEdad.setForeground(new java.awt.Color(255, 255, 255));
         detailEdad.setText("Edad : --");
-        jPanel1.add(detailEdad, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 160, 80, -1));
+//        jPanel1.add(detailEdad, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 160, 80, -1));
 
         detail_bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/user_icon.png"))); // NOI18N
-        jPanel1.add(detail_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+//        jPanel1.add(detail_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        detallesUsuario.getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 200));
+//        detallesUsuario.getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 400, 200));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Vampire WarsGame");
@@ -175,11 +175,11 @@ public class ventanaGame extends javax.swing.JFrame {
                 canClose(evt);
             }
         });
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         mainPanel.setMinimumSize(new java.awt.Dimension(952, 560));
         mainPanel.setPreferredSize(new java.awt.Dimension(952, 560));
-        mainPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        mainPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         menuBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/HOME_MENU_PRESS.jpg"))); // NOI18N
         menuBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -187,7 +187,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 menuBtnMouseClicked(evt);
             }
         });
-        mainPanel.add(menuBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 202, 42));
+//        mainPanel.add(menuBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 202, 42));
 
         playBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/PLAY_MENU_UNPRESS.jpg"))); // NOI18N
         playBtn.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/PLAY_MENU_DISABLE.jpg"))); // NOI18N
@@ -196,7 +196,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 playBtnMouseClicked(evt);
             }
         });
-        mainPanel.add(playBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 42, 202, 42));
+//        mainPanel.add(playBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 42, 202, 42));
 
         statusBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/STATUS_MENU_UNPRESS.jpg"))); // NOI18N
         statusBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -204,7 +204,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 statusBtnMouseClicked(evt);
             }
         });
-        mainPanel.add(statusBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 168, 202, 42));
+//        mainPanel.add(statusBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 168, 202, 42));
 
         userBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/USER_MENU_UNPRESS.jpg"))); // NOI18N
         userBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -212,7 +212,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 userBtnMouseClicked(evt);
             }
         });
-        mainPanel.add(userBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 126, 202, 42));
+//        mainPanel.add(userBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 126, 202, 42));
 
         prefBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/PREF_MENU_UNPRESS.jpg"))); // NOI18N
         prefBtn.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/PREF_MENU_DISABLE.jpg"))); // NOI18N
@@ -221,7 +221,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 prefBtnMouseClicked(evt);
             }
         });
-        mainPanel.add(prefBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 84, 202, 42));
+//        mainPanel.add(prefBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 84, 202, 42));
 
         nowBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/NOW_MENU_UNPRESS.jpg"))); // NOI18N
         nowBtn.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/NOW_MENU_DISABLE.jpg"))); // NOI18N
@@ -231,7 +231,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 nowBtnMouseClicked(evt);
             }
         });
-        mainPanel.add(nowBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 202, 42));
+//        mainPanel.add(nowBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 210, 202, 42));
 
         homePanel.setOpaque(false);
         homePanel.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -239,13 +239,13 @@ public class ventanaGame extends javax.swing.JFrame {
                 homePanelComponentShown(evt);
             }
         });
-        homePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        homePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         home_bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/HOME_BG.jpg"))); // NOI18N
         home_bg.setText("jLabel2");
-        homePanel.add(home_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 560));
+//        homePanel.add(home_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 560));
 
-        mainPanel.add(homePanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
+//        mainPanel.add(homePanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
 
         playPanel.setOpaque(false);
         playPanel.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -253,16 +253,16 @@ public class ventanaGame extends javax.swing.JFrame {
                 playPanelComponentShown(evt);
             }
         });
-        playPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        playPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         o_play.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/O_graphic.png"))); // NOI18N
-        playPanel.add(o_play, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 118, -1, -1));
+//        playPanel.add(o_play, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 118, -1, -1));
 
         down_play.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/down_trans_graphic.png"))); // NOI18N
-        playPanel.add(down_play, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 495, 790, 26));
+//        playPanel.add(down_play, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 495, 790, 26));
 
         up_play.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/up_trans_graphic.png"))); // NOI18N
-        playPanel.add(up_play, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 780, -1));
+//        playPanel.add(up_play, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 780, -1));
 
         scrollPartidas.setBackground(new java.awt.Color(0, 0, 0));
         scrollPartidas.setBorder(null);
@@ -271,10 +271,10 @@ public class ventanaGame extends javax.swing.JFrame {
         scrollPartidas.setOpaque(false);
 
         listPartidasPanel.setOpaque(false);
-        listPartidasPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        listPartidasPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         scrollPartidas.setViewportView(listPartidasPanel);
 
-        playPanel.add(scrollPartidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 440, 400));
+//        playPanel.add(scrollPartidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 440, 400));
         scrollPartidas.getViewport().setOpaque(false);
 
         scrollUsersPlay.setBackground(new java.awt.Color(0, 0, 0));
@@ -284,16 +284,16 @@ public class ventanaGame extends javax.swing.JFrame {
         scrollUsersPlay.setOpaque(false);
 
         listPlayPanel.setOpaque(false);
-        listPlayPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        listPlayPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         scrollUsersPlay.setViewportView(listPlayPanel);
 
-        playPanel.add(scrollUsersPlay, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 120, 890, 400));
+//        playPanel.add(scrollUsersPlay, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 120, 890, 400));
         scrollUsersPlay.getViewport().setOpaque(false);
 
         play_bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/PLAY_BG.png"))); // NOI18N
-        playPanel.add(play_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 142));
+//        playPanel.add(play_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 142));
 
-        mainPanel.add(playPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
+//        mainPanel.add(playPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
 
         statusPanel.setOpaque(false);
         statusPanel.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -301,12 +301,12 @@ public class ventanaGame extends javax.swing.JFrame {
                 statusPanelComponentShown(evt);
             }
         });
-        statusPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        statusPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         status_bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/STATUS_BG.png"))); // NOI18N
-        statusPanel.add(status_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+//        statusPanel.add(status_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        mainPanel.add(statusPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
+//        mainPanel.add(statusPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
 
         userPanel.setOpaque(false);
         userPanel.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -314,26 +314,26 @@ public class ventanaGame extends javax.swing.JFrame {
                 userPanelComponentShown(evt);
             }
         });
-        userPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        userPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         o_user.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/O_graphic.png"))); // NOI18N
-        userPanel.add(o_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 118, -1, -1));
+//        userPanel.add(o_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 118, -1, -1));
 
         down_users.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/down_trans_graphic.png"))); // NOI18N
-        userPanel.add(down_users, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 495, 400, 26));
+//        userPanel.add(down_users, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 495, 400, 26));
 
         up_users.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/up_trans_graphic.png"))); // NOI18N
-        userPanel.add(up_users, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 118, 400, -1));
+//        userPanel.add(up_users, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 118, 400, -1));
 
         nickAlert.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/field_ALERT.png"))); // NOI18N
         nickAlert.setToolTipText("Usuario existente o exe mas de 16 caracteres.");
         nickAlert.setEnabled(false);
-        userPanel.add(nickAlert, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 266, 35, 41));
+//        userPanel.add(nickAlert, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 266, 35, 41));
 
         passAlert.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/field_ALERT.png"))); // NOI18N
         passAlert.setToolTipText("Contraseñas deven ser iguales");
         passAlert.setEnabled(false);
-        userPanel.add(passAlert, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 320, 35, 41));
+//        userPanel.add(passAlert, new org.netbeans.lib.awtextra.AbsoluteConstraints(281, 320, 35, 41));
 
         crearBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/button_CREAR.png"))); // NOI18N
         crearBtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -341,7 +341,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 crearBtnMouseClicked(evt);
             }
         });
-        userPanel.add(crearBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 480, -1, -1));
+//        userPanel.add(crearBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 480, -1, -1));
 
         fullName.setBackground(new java.awt.Color(238, 238, 238));
         fullName.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -358,7 +358,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 fullNameKeyReleased(evt);
             }
         });
-        userPanel.add(fullName, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 220, 220, 26));
+//        userPanel.add(fullName, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 220, 220, 26));
 
         nickName.setBackground(new java.awt.Color(238, 238, 238));
         nickName.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -375,7 +375,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 nickNameKeyReleased(evt);
             }
         });
-        userPanel.add(nickName, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 274, 220, 26));
+//        userPanel.add(nickName, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 274, 220, 26));
 
         password.setBackground(new java.awt.Color(238, 238, 238));
         password.setText("password");
@@ -385,7 +385,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 passwordFocusGained(evt);
             }
         });
-        userPanel.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 328, 105, 26));
+//        userPanel.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 328, 105, 26));
 
         isPassword.setBackground(new java.awt.Color(238, 238, 238));
         isPassword.setText("password");
@@ -400,7 +400,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 isPasswordKeyReleased(evt);
             }
         });
-        userPanel.add(isPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 328, 105, 26));
+//        userPanel.add(isPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 328, 105, 26));
 
         email.setBackground(new java.awt.Color(238, 238, 238));
         email.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -417,7 +417,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 emailKeyReleased(evt);
             }
         });
-        userPanel.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 382, 220, 26));
+//        userPanel.add(email, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 382, 220, 26));
 
         edad.setBackground(new java.awt.Color(238, 238, 238));
         edad.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
@@ -434,7 +434,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 edadKeyReleased(evt);
             }
         });
-        userPanel.add(edad, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 436, 34, 26));
+//        userPanel.add(edad, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 436, 34, 26));
 
         scrollUsers.setBackground(new java.awt.Color(0, 0, 0));
         scrollUsers.setBorder(null);
@@ -443,16 +443,16 @@ public class ventanaGame extends javax.swing.JFrame {
         scrollUsers.setOpaque(false);
 
         listUsersPanel.setOpaque(false);
-        listUsersPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        listUsersPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         scrollUsers.setViewportView(listUsersPanel);
 
-        userPanel.add(scrollUsers, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 440, 400));
+//        userPanel.add(scrollUsers, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 440, 400));
         scrollUsers.getViewport().setOpaque(false);
 
         user_bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/USER_BG.png"))); // NOI18N
-        userPanel.add(user_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+//        userPanel.add(user_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
-        mainPanel.add(userPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
+//        mainPanel.add(userPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
 
         prefPanel.setOpaque(false);
         prefPanel.addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -460,19 +460,19 @@ public class ventanaGame extends javax.swing.JFrame {
                 prefPanelComponentShown(evt);
             }
         });
-        prefPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        prefPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         pref_bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/PREF_BG.png"))); // NOI18N
-        prefPanel.add(pref_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+//        prefPanel.add(pref_bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         vs_Net.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/VS_graphic.png"))); // NOI18N
-        prefPanel.add(vs_Net, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 118, -1, -1));
+//        prefPanel.add(vs_Net, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 118, -1, -1));
 
         down_users1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/down_trans_graphic.png"))); // NOI18N
-        prefPanel.add(down_users1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 495, 400, 26));
+//        prefPanel.add(down_users1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 495, 400, 26));
 
         up_users1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/up_trans_graphic.png"))); // NOI18N
-        prefPanel.add(up_users1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 118, 400, -1));
+//        prefPanel.add(up_users1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 118, 400, -1));
 
         scrollNet.setBackground(new java.awt.Color(0, 0, 0));
         scrollNet.setBorder(null);
@@ -481,13 +481,13 @@ public class ventanaGame extends javax.swing.JFrame {
         scrollNet.setOpaque(false);
 
         listNetPanel.setOpaque(false);
-        listNetPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        listNetPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         scrollNet.setViewportView(listNetPanel);
 
-        prefPanel.add(scrollNet, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 440, 400));
+//        prefPanel.add(scrollNet, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 440, 400));
         scrollNet.getViewport().setOpaque(false);
 
-        mainPanel.add(prefPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
+//        mainPanel.add(prefPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
 
         nowPanel.setFont(new java.awt.Font("Eurostile", 1, 14)); // NOI18N
         nowPanel.setOpaque(false);
@@ -496,29 +496,29 @@ public class ventanaGame extends javax.swing.JFrame {
                 nowPanelComponentShown(evt);
             }
         });
-        nowPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+//        nowPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         play_1P.setFont(new java.awt.Font("Eurostile", 0, 18)); // NOI18N
         play_1P.setForeground(new java.awt.Color(255, 255, 255));
         play_1P.setText("USER A");
-        nowPanel.add(play_1P, new org.netbeans.lib.awtextra.AbsoluteConstraints(565, 28, -1, -1));
+//        nowPanel.add(play_1P, new org.netbeans.lib.awtextra.AbsoluteConstraints(565, 28, -1, -1));
 
         play_2P.setFont(new java.awt.Font("Eurostile", 0, 18)); // NOI18N
         play_2P.setForeground(new java.awt.Color(255, 255, 255));
         play_2P.setText("USER B");
-        nowPanel.add(play_2P, new org.netbeans.lib.awtextra.AbsoluteConstraints(565, 62, -1, -1));
+//        nowPanel.add(play_2P, new org.netbeans.lib.awtextra.AbsoluteConstraints(565, 62, -1, -1));
 
         chronos.setFont(new java.awt.Font("Eurostile", 1, 32)); // NOI18N
         chronos.setForeground(new java.awt.Color(255, 255, 255));
         chronos.setText("00:00:00");
-        nowPanel.add(chronos, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 100, 150, 50));
+//        nowPanel.add(chronos, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 100, 150, 50));
 
         play_Users.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/play_Users.png"))); // NOI18N
-        nowPanel.add(play_Users, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 0, -1, -1));
+//        nowPanel.add(play_Users, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 0, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/play_Dado.png"))); // NOI18N
         jLabel1.setEnabled(false);
-        nowPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 154, -1, -1));
+//        nowPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 154, -1, -1));
 
         play_Quit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/play_Quit.png"))); // NOI18N
         play_Quit.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -526,7 +526,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 play_QuitMouseClicked(evt);
             }
         });
-        nowPanel.add(play_Quit, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 474, -1, -1));
+//        nowPanel.add(play_Quit, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 474, -1, -1));
 
         play_Att.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/play_Att.png"))); // NOI18N
         play_Att.setEnabled(false);
@@ -535,7 +535,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 play_AttMouseClicked(evt);
             }
         });
-        nowPanel.add(play_Att, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 426, -1, -1));
+//        nowPanel.add(play_Att, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 426, -1, -1));
 
         play_Move.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/play_Move.png"))); // NOI18N
         play_Move.setEnabled(false);
@@ -544,7 +544,7 @@ public class ventanaGame extends javax.swing.JFrame {
                 play_MoveMouseClicked(evt);
             }
         });
-        nowPanel.add(play_Move, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 378, -1, -1));
+//        nowPanel.add(play_Move, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 378, -1, -1));
 
         play_Save_Chat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/play_Save.png"))); // NOI18N
         play_Save_Chat.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -552,14 +552,14 @@ public class ventanaGame extends javax.swing.JFrame {
                 play_Save_ChatMouseClicked(evt);
             }
         });
-        nowPanel.add(play_Save_Chat, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 330, -1, -1));
+//        nowPanel.add(play_Save_Chat, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 330, -1, -1));
 
-        mainPanel.add(nowPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
+//        mainPanel.add(nowPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(202, 0, 750, 580));
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/background.jpg"))); // NOI18N
-        mainPanel.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, 580));
+//        mainPanel.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, 580));
 
-        getContentPane().add(mainPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 952, 560));
+//        getContentPane().add(mainPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 952, 560));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -778,7 +778,7 @@ public class ventanaGame extends javax.swing.JFrame {
             }
         }*/
         //setCrono(0,0,0);
-        JOptionPane.showMessageDialog(null, "X: "+x+" / Y: "+y+"\n Player 1P "+tablero.getPlayer1P()+"\n"+tablero.Piezas[x][y].isPlayer1P() , "Alerta", 0);
+        JOptionPane.showMessageDialog(null, "X: "+x+" / Y: "+y+"\n Player 1P "+tablero.getPlayer1P()+"\n"+ true , "Alerta", 0);
     }
     
     private static boolean isPasswordCorrect(char[] input, char[] isInput) {
@@ -842,14 +842,14 @@ public class ventanaGame extends javax.swing.JFrame {
         piezaHP[x][y].setSize(new java.awt.Dimension(30, 30));
         piezaHP[x][y].setText("");
         piezaHP[x][y].setForeground(new java.awt.Color(255, 255, 255));
-        nowPanel.add(piezaHP[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+7, ypos+50, -1, -1));
+//        nowPanel.add(piezaHP[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+7, ypos+50, -1, -1));
         setHPtxt(x,y);
 
         piezaLab[x][y] = new javax.swing.JLabel();
         piezaLab[x][y].setPreferredSize(new java.awt.Dimension(80, 80));
         piezaLab[x][y].setSize(new java.awt.Dimension(80, 80));
         piezaLab[x][y].setText(null);
-        nowPanel.add(piezaLab[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
+//        nowPanel.add(piezaLab[x][y], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
         setIconPos(x,y,"");
         
         piezaLab[x][y].addMouseListener(new java.awt.event.MouseAdapter() {
@@ -884,7 +884,7 @@ public class ventanaGame extends javax.swing.JFrame {
             info_Play.setText(null);
             info_Play.setPreferredSize(new java.awt.Dimension(339, 111));
             info_Play.setSize(new java.awt.Dimension(339, 111));
-            listPartidasPanel.add(info_Play, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 118, 339, 111));
+//            listPartidasPanel.add(info_Play, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 118, 339, 111));
             info_Play.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/info_PLAY.png")));
         }
         
@@ -893,14 +893,14 @@ public class ventanaGame extends javax.swing.JFrame {
             alert_User.setText(null);
             alert_User.setPreferredSize(new java.awt.Dimension(339, 111));
             alert_User.setSize(new java.awt.Dimension(339, 111));
-            listUsersPanel.add(alert_User, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 118, 339, 111));
+//            listUsersPanel.add(alert_User, new org.netbeans.lib.awtextra.AbsoluteConstraints(4, 118, 339, 111));
             alert_User.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/alerta_USERS.png")));
 
             JLabel alert_Play = new javax.swing.JLabel();
             alert_Play.setText(null);
             alert_Play.setPreferredSize(new java.awt.Dimension(339, 111));
             alert_Play.setSize(new java.awt.Dimension(339, 111));
-            listPlayPanel.add(alert_Play, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 118, 339, 111));
+//            listPlayPanel.add(alert_Play, new org.netbeans.lib.awtextra.AbsoluteConstraints(15, 118, 339, 111));
             alert_Play.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/alerta_PLAY.png")));
         }else{
             String users[][] = file.listStringUsers();
@@ -923,10 +923,10 @@ public class ventanaGame extends javax.swing.JFrame {
             usersLabelPie.setText(null);
             usersLabelPie.setPreferredSize(new java.awt.Dimension(317, 25));
             usersLabelPie.setSize(new java.awt.Dimension(317, 25));
-            if(isPlay)
-            listPlayPanel.add(usersLabelPie, new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
-            else
-            listUsersPanel.add(usersLabelPie, new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
+//            if(isPlay)
+//            listPlayPanel.add(usersLabelPie, new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
+//            else
+//            listUsersPanel.add(usersLabelPie, new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
         }
     }
     
@@ -936,7 +936,7 @@ public class ventanaGame extends javax.swing.JFrame {
         usersLabel[u][5].setText(null);
         usersLabel[u][5].setPreferredSize(new java.awt.Dimension(27, 27));
         usersLabel[u][5].setSize(new java.awt.Dimension(27, 27));
-        listUsersPanel.add(usersLabel[u][5], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+245, ypos+9, 27, 27));
+//        listUsersPanel.add(usersLabel[u][5], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+245, ypos+9, 27, 27));
         
         usersLabel[u][5].addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
@@ -949,13 +949,13 @@ public class ventanaGame extends javax.swing.JFrame {
         usersLabel[u][4].setText(null);
         usersLabel[u][4].setPreferredSize(new java.awt.Dimension(27, 27));
         usersLabel[u][4].setSize(new java.awt.Dimension(27, 27));
-        if(!isPlay)
-        listUsersPanel.add(usersLabel[u][4], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+280, ypos+9, 27, 27));
-        else{
-        listPlayPanel.add(usersLabel[u][4], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+280, ypos+9, 27, 27));
-        usersLabel[u][4].setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/pin.png")));
-        usersLabel[u][4].setEnabled(false);
-        }
+//        if(!isPlay)
+//        listUsersPanel.add(usersLabel[u][4], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+280, ypos+9, 27, 27));
+//        else{
+//        listPlayPanel.add(usersLabel[u][4], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+280, ypos+9, 27, 27));
+//        usersLabel[u][4].setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/pin.png")));
+//        usersLabel[u][4].setEnabled(false);
+//        }
         
         if(!isPlay){
             usersLabel[u][4].addMouseListener(new java.awt.event.MouseAdapter() {
@@ -974,10 +974,10 @@ public class ventanaGame extends javax.swing.JFrame {
         usersLabel[u][3].setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         usersLabel[u][3].setPreferredSize(new java.awt.Dimension(25, 25));
         usersLabel[u][3].setSize(new java.awt.Dimension(25, 25));
-        if(!isPlay)
-        listUsersPanel.add(usersLabel[u][3], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+10, ypos+10, 25, 25));
-        else
-        listPlayPanel.add(usersLabel[u][3], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+10, ypos+10, 25, 25));
+//        if(!isPlay)
+//        listUsersPanel.add(usersLabel[u][3], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+10, ypos+10, 25, 25));
+//        else
+//        listPlayPanel.add(usersLabel[u][3], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+10, ypos+10, 25, 25));
         if(Integer.parseInt(user[6])>99){
         usersLabel[u][3].setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/+99.png")));
         usersLabel[u][3].setText(null);
@@ -987,28 +987,28 @@ public class ventanaGame extends javax.swing.JFrame {
         usersLabel[u][2].setFont(new java.awt.Font("Eurostile", 0, 12)); // NOI18N
         usersLabel[u][2].setForeground(new java.awt.Color(255, 255, 255));
         usersLabel[u][2].setText(user[5]+" PUNTOS");
-        if(!isPlay)
-        listUsersPanel.add(usersLabel[u][2], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+24, -1, -1));
-        else
-        listPlayPanel.add(usersLabel[u][2], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+24, -1, -1));
+//        if(!isPlay)
+//        listUsersPanel.add(usersLabel[u][2], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+24, -1, -1));
+//        else
+//        listPlayPanel.add(usersLabel[u][2], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+24, -1, -1));
         
         usersLabel[u][1] = new javax.swing.JLabel();
         usersLabel[u][1].setFont(new java.awt.Font("Eurostile", 1, 16)); // NOI18N
         usersLabel[u][1].setForeground(new java.awt.Color(255, 255, 255));
         usersLabel[u][1].setText(user[1].toUpperCase());
-        if(!isPlay)
-        listUsersPanel.add(usersLabel[u][1], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+8, -1, -1));
-        else
-        listPlayPanel.add(usersLabel[u][1], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+8, -1, -1));
+//        if(!isPlay)
+//        listUsersPanel.add(usersLabel[u][1], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+8, -1, -1));
+//        else
+//        listPlayPanel.add(usersLabel[u][1], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos+45, ypos+8, -1, -1));
         
         usersLabel[u][0] = new javax.swing.JLabel();
         usersLabel[u][0].setText(null);
         usersLabel[u][0].setPreferredSize(new java.awt.Dimension(317, 44));
         usersLabel[u][0].setSize(new java.awt.Dimension(317, 44));
-        if(!isPlay)
-        listUsersPanel.add(usersLabel[u][0], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
-        else
-        listPlayPanel.add(usersLabel[u][0], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
+//        if(!isPlay)
+//        listUsersPanel.add(usersLabel[u][0], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
+//        else
+//        listPlayPanel.add(usersLabel[u][0], new org.netbeans.lib.awtextra.AbsoluteConstraints(xpos, ypos, -1, -1));
         if(!isPlay)
         usersLabel[u][0].setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/userEdit_FIELD.png")));
         else
@@ -1274,7 +1274,7 @@ public class ventanaGame extends javax.swing.JFrame {
     
     public void setIconPos(int x,int y,String acc){
         if(tablero.Piezas[x][y]!=null){
-            if(tablero.Piezas[x][y].nPlayer){
+            if(true){
                 if(tablero.Piezas[x][y].tipo == piezaTipo.WOLF)
                     piezaLab[x][y].setIcon(new javax.swing.ImageIcon(getClass().getResource("/recursos/wolfBlack"+acc+".png")));
                 if(tablero.Piezas[x][y].tipo == piezaTipo.VAMPIRE)
